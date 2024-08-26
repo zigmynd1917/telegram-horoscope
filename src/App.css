@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: arial;
+}
+
+a {
+  text-decoration: none;
+  color: gold 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #5e0e67;
+}
+
+.appContainer {
+  max-width: 2040px;
+  padding: 0 15px;
+}
+
+.zodiacItem {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.zodiacCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gold;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all .3s;
+
+  flex: 0 0 32%;
+
+  background-color: #4a0b51;
+}
+
+.zodiacCard:hover {
+  background-color: #4a0b51ad;
+}
+
+.zodiacIcon {
+  font-size: 24px;
+}
+
+.zodiacDetail {
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  color: gold
+}
+
+.zodiacDetailButton {
+  background-color: transparent;
+  border: 1px solid gold;
+  color: gold;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 15px;
+  transition: all .3s;
+}
+
+.zodiacDetailButton:hover {
+  background-color: gold;
+  color: #000;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.zodiacHeaderName {
+  padding: 5px 15px 5px 0;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: gold
+}
+
+.languageSwitcherContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.languageSwitcher {
+  padding: 5px 15px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  background-color: gold;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition: all .3s;
+}
+
+.languageSwitcher:hover {
+  background-color: transparent;
+  border: 1px solid gold;
+  color: gold
+}
+
+.languageSwitcher:hover svg {
+  fill: gold;
+  transition: all .3s
+}
+
+@media screen and (max-width: 900px) {
+  .zodiacCard {
+    flex: 1 0 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .zodiacCard {
+    flex: 1 1 100%;
+  }
+
+  .languageSwitcherContainer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "en": {
+    "loading": "Loading...",
+    "error": "Error:",
+    "backButton": "Back",
+    "languageSwitcher": "Switch to Russian",
+    "zodiacNames": {
+      "aries": "Aries",
+      "taurus": "Taurus",
+      "gemini": "Gemini",
+      "cancer": "Cancer",
+      "leo": "Leo",
+      "virgo": "Virgo",
+      "libra": "Libra",
+      "scorpio": "Scorpio",
+      "sagittarius": "Sagittarius",
+      "capricorn": "Capricorn",
+      "aquarius": "Aquarius",
+      "pisces": "Pisces"
+    },
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    }
+  },
+  "ru": {
+    "loading": "Загрузка...",
+    "error": "Ошибка:",
+    "backButton": "Назад",
+    "languageSwitcher": "Переключить на английский",
+    "zodiacNames": {
+      "aries": "Овен",
+      "taurus": "Телец",
+      "gemini": "Близнецы",
+      "cancer": "Рак",
+      "leo": "Лев",
+      "virgo": "Дева",
+      "libra": "Весы",
+      "scorpio": "Скорпион",
+      "sagittarius": "Стрелец",
+      "capricorn": "Козерог",
+      "aquarius": "Водолей",
+      "pisces": "Рыбы"
+    },
+    "months": {
+      "january": "Январь",
+      "february": "Февраль",
+      "march": "Март",
+      "april": "Апрель",
+      "may": "Май",
+      "june": "Июнь",
+      "july": "Июль",
+      "august": "Август",
+      "september": "Сентябрь",
+      "october": "Октябрь",
+      "november": "Ноябрь",
+      "december": "Декабрь"
+    }
+  }
+}
